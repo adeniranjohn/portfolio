@@ -1,7 +1,7 @@
 const Project =()=> {
     require (
         <section>
-
+            <p>project</p>
             </section>
     )
 }

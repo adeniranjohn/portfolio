@@ -1,18 +1,18 @@
-import { Paper, Card } from '@material-ui/core'
+import { Paper, Card, Typography } from '@material-ui/core'
 
 const Projects = () => {
     return (
-        <article>
-            <h1>Projects</h1>
+        <section className="projects">
+            <h2>Projects</h2>
             <Paper elevation={3}>
                 <Card>
-                    <p>Tech Stack</p>
-                    <p>Description of the Project</p>
-                    <p>Link to project</p>
+                    <Typography variant="h4" align="left">TrendyThrift</Typography>
+                    <Typography variant="p" align="left">Description of the Project</Typography>
+                    <Typography variant="p" align="left">Project LIn</Typography>
                 </Card>
             </Paper>
 
-        </article>
+        </section>
     )
 }
 
