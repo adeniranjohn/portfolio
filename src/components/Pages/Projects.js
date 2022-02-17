@@ -6,7 +6,7 @@ const Projects = () => {
             <h2>Projects</h2>
             <Paper elevation={3}>
                 <Card>
-                    <Typography variant="h4" align="left">TrendyThrift</Typography>
+                    <Typography variant="h4" align="left">TrendyThrift Web App(https://tren)</Typography>
                     <Typography variant="p" align="left">Description of the Project</Typography>
                     <Typography variant="p" align="left">Project LIn</Typography>
                 </Card>

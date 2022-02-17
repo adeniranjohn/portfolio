@@ -1,11 +1,11 @@
-
-
-nav a {
-  text-decoration: none;
-  padding: 1em;
-  font-size: small;
-  color: white;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 
 nav {
   display: flex;
@@ -13,8 +13,24 @@ nav {
   max-width: 40em;
   align-items: center;
   margin: 0 auto !important;
+  a {
+    text-decoration: none;
+    padding: 1em;
+    font-size: small;
+    color: white;
+  }
 }
 
+
+article.home {
+  ul {
+    padding: 0;
+    li {
+      list-style-type: none;
+ 
+    }
+  }
+}
 header {
 margin: 0 auto;
 }
@@ -63,5 +79,4 @@ ul {
 
 Footer {
   text-align: center;
-
 }

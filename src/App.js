@@ -22,7 +22,7 @@ function App() {
        <Toolbar>
          {/* <IconButton><MenuIcon/></IconButton> */}
          <Link to="/"> Home </Link>
-            <Link to="/projects"> Projects</Link>
+            {/* <Link to="/projects"> Projects</Link> */}
             <Link to="/experience"> Experience</Link>
             <Link to="/about">About</Link>
 
