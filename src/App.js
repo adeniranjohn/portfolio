@@ -5,7 +5,6 @@ import Experience from './components/Pages/Experience';
 import About from './components/Pages/About';
 
 import Home from './components/Pages/Home';
-import Projects from './components/Pages/Projects';
 
 import './App.scss';
 
@@ -36,7 +35,6 @@ function App() {
     <Box p={3}>
         <Routes>
           <Route exact path="/" element={<Home/>} /> 
-          <Route exact path="/projects" element={<Projects/>} /> 
           <Route exact path="/experience" element={<Experience/>} /> 
           <Route exact path="/about" element={<About/>} /> 
           </Routes>
