@@ -4,11 +4,12 @@ const Projects = () => {
     return (
         <section className="projects">
             <h2>Projects</h2>
-            <Paper elevation={3}>
+            <Paper elevation={3} spacing={5}>
                 <Card>
-                    <Typography variant="h4" align="left">TrendyThrift Web App(https://tren)</Typography>
-                    <Typography variant="p" align="left">Description of the Project</Typography>
-                    <Typography variant="p" align="left">Project LIn</Typography>
+                    <Typography variant="h4" align="left">TrendyThrift <span>web url</span></Typography>
+                    <Typography variant="p" align="left">Description</Typography>
+                    <Typography variant="p" align="left">Tech Stack</Typography>
+                    
                 </Card>
             </Paper>
 

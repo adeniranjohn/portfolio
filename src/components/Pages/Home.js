@@ -1,23 +1,30 @@
-import { Button, Typography, Box, ButtonGroup, Paper, Grid, Card} from '@material-ui/core'
-import OpenInNew from '@material-ui/icons/OpenInNew'
+import { Button, Typography, ButtonGroup, Grid} from '@material-ui/core'
+
 const Home = () => {
   return (
     <article className="home">
-
-      <Typography variant="h4" color="secondary" align="center">
-      
-      </Typography>
+      <Grid container  xs={12} spacing={3}>
+      <Grid item  align="center"  xs={12}>
+     
       <Typography variant="h2" align="center">
-      <span color="secondary" >Hello</span> , I am John Adeniran
+         <Typography variant="span" color="secondary">
+      Hello.
       </Typography>
-      <Typography variant="h4" align="center">
+      I am John Adeniran
+      </Typography>
+      </Grid>
+    
+      <Grid item xs={12}>
+      <Typography variant="h6" align="center" >
         Software Developer
       </Typography>
-      <Typography variant="p" align="center">
-        <p>  I develop rich interactive websites and fast innovative web apps.    </p>
-        <p>  I write REST APIs using NodeJS and NestJS, with  React library, Angular and NextJS front-end framework for front-end applications.    </p>
-        <p> I build products with passion </p>
+      </Grid>
+      <Grid item  align="center"  xs={12}>
+      <Typography variant="p" align="center" >
+       I develop rich interactive websites and fast innovative web apps for businesses.
+        
       </Typography>
+      </Grid>
 
         {/* <Grid container spacing={2}>
           <Grid item sm={12} md={6} >
@@ -75,12 +82,13 @@ const Home = () => {
 
 
       </Grid> */}
-        <ButtonGroup variant="contained" align="center"  spacing={3} style={{marginTop: '3rem'}}>
-          <Button onClick={() => window.open("https://drive.google.com/file/d/1A90EdFR6waZvM91FDMFnVUT9ehc0Z2N4/view?usp=sharing", '_blank')} color="primary"><OpenInNew />Resume</Button>
+            <Grid p={8}  item xs={12} justifyContent="center"  align="center" >
+        <ButtonGroup variant="contained" align="center"  spacing={3}>
+          <Button onClick={() => window.open("https://drive.google.com/file/d/1A90EdFR6waZvM91FDMFnVUT9ehc0Z2N4/view?usp=sharing", '_blank')} color="primary">Resume</Button>
           <Button href="/projects" color="primary">Projects</Button>
         </ButtonGroup>
-
-  
+        </Grid>
+        </Grid>
 
 
     </article>

@@ -25,7 +25,7 @@ function App() {
             {/* <Link to="/projects"> Projects</Link> */}
             <Link to="/experience"> Experience</Link>
             <Link to="/about">About</Link>
-
+  
             </Toolbar>
         </nav>
         </section>
@@ -43,7 +43,7 @@ function App() {
           </Box>
           </Container>
           </main>
-    
+
       </BrowserRouter>
       <Footer />
     </Container>
