@@ -1,22 +1,18 @@
-
-import { Typography } from '@material-ui/core'
-import Card from '../Layout/Card';
-
 const About = () => {
 
   return (
-    <section>
+    <section className="about">
 
-      <Typography variant="h3" align="center">
-        little about me...
-      </Typography>
-      <Card>
+      <h3>
+        About me
+      </h3>
+      <section className="card">
 
-        <Typography variant="h5">
-          top skills
+        <h4>
+          Top skills
 
-        </Typography>
-        <Typography>
+        </h4>
+        <p>
           <ul>
             <li>
               <strong>Languages: </strong>Javascript, Typescript, Python
@@ -33,21 +29,21 @@ const About = () => {
             <li>
               <strong>Tools: </strong>Git, Github, VSCode         </li>
           </ul>
-        </Typography>
+        </p>
 
 
-      </Card>
+      </section>
 
-      <Card>
-        <Typography variant="h5">
+      <section className="card">
+        <h4>
           Reach Out
 
-        </Typography>
+        </h4>
 
-        <Typography variant="h6">
+        <h6>
           Socials
 
-        </Typography>
+        </h6>
         <p><a href="https://twitter.com/jasolajohn" alt="Twitter" target="_blank" rel="noreferrer" aria-label="Twitter">
           Twitter icon: @jasolajohn</a></p>
         <p><a href="https://www.linkedin.com/in/adeniranjohn" alt="LinkedIn" target="_blank" rel="noreferrer"
@@ -55,14 +51,14 @@ const About = () => {
         <p><a href="https://www.github.com/adeniranjohn" alt="Github" target="_blank" rel="noreferrer"
           aria-label="LinkedIn">Github icon: adeniranjohn</a></p>
 
-        <Typography variant="h6">
+        <h6>
           Contacts
 
-        </Typography>
+        </h6>
         <p><a href="mailto:jasolajohn@gmail.com" alt="Email" target="_blank" rel="noreferrer" >Email: jasolajohn@gmail.com</a></p>
         <p><a href="tel: +2348031510308" alt="Phone" target="_blank" rel="noreferrer" >Phone icon: +2348131510308</a></p>
 
-      </Card>
+      </section>
 
 
     </section>

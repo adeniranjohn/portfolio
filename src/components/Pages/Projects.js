@@ -1,8 +1,8 @@
-const Experience = () => {
+const Projects = () => {
     return (
         <section className="projects">
             <h3>
-                Experience
+                Projects
             </h3>
 
 
@@ -51,7 +51,7 @@ const Experience = () => {
 
                 <article>
                     <h6>BuildForSDG Challenge Learning Community Ambassador</h6>
-                    <h6>May 2019 - December 2019</h6>
+                    <p>May 2019 - December 2019</p>
 
                     <ul>
                         <li>Monitoring learners progress to make sure their learning path is smooth.</li>
@@ -67,4 +67,4 @@ const Experience = () => {
     )
 }
 
-export default Experience;
+export default Projects;

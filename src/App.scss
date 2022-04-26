@@ -6,42 +6,54 @@
   box-sizing: border-box;
 }
 
+$color-primary : #3f51b5;
+$color-secondary : #f50057;
 
 section.App {
 
+  img {
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    margin: 0.5em auto !important;
+  }
+
   Header {
-    background-color: #3f51b5;
+    background-color: $color-primary;
     padding: 1em;
+
     header {
       display: flex;
 
     }
 
 
-      nav {
-        display: flex;
-        justify-content: space-evenly;
-        max-width: 20em;
-        align-items: center;
-        margin: 0 auto !important;
-        a {
-          text-decoration: none;
-          padding: 1em;
-          font-size: small;
-          color: white;
+    nav {
+      display: flex;
+      justify-content: space-evenly;
+      max-width: 20em;
+      align-items: center;
+      margin: 0 auto !important;
 
-          &:hover {
-            text-decoration: underline;
-          }
 
-          &:active {
-            color: #f50057;
-          }
+      a {
+        text-decoration: none;
+        padding: 0.5em;
+        font-size: small;
+        color: white;
 
+        &:hover {
+          border-bottom: 0.2em solid white;
         }
 
+        &:active {
+          color: $color-secondary;
+        }
 
-      
+      }
+
+
+
 
     }
   }
@@ -52,13 +64,14 @@ section.App {
     section.Home {
       padding-top: 3rem;
       text-align: center;
+
       h1 {
         font-size: 5rem;
         font-weight: normal;
         margin: 0.5rem 2rem;
-   
+
         span {
-          color: #f50057;
+          color: $color-secondary;
 
         }
       }
@@ -68,6 +81,7 @@ section.App {
         font-weight: normal;
         margin: 0.5rem 2rem;
       }
+
       p {
         margin: 0.5rem 2rem;
         max-width: 35rem;
@@ -76,8 +90,9 @@ section.App {
 
       article.buttons {
         padding: 1rem;
+
         button {
-          background-color: #3f51b5;
+          background-color: $color-primary;
           border: none;
           color: white;
           padding: 0.5rem;
@@ -87,93 +102,75 @@ section.App {
         }
       }
     }
+
+
+    section.projects, section.about {
+      line-height: 1.2;
+
+      h3 {
+        font-size: 2.5rem;
+        margin: 1rem;
+        font-weight: 500;
+      }
+
+      article {
+        margin-top: 1rem;
+      }
+
+      section.card {
+        padding: 1.5rem;
+        margin: 1rem;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+
+        h4 {
+          font-size: 1.8rem;
+          font-weight: 400;
+        }
+
+        h6 {
+          font-size: 1.5rem;
+          font-weight: 300;
+        }
+
+        ul {
+          text-decoration: none;
+          list-style-type: disc;
+          margin-left: 0.8rem;
+        }
+
+        span {
+          &.secondary {
+            color: $color-secondary;
+          }
+        }
+      }
+    }
+
   }
+
+  Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto !important;
+    text-align: center;
+  }
+
+
 }
 
 
 
 
-
-section.projects {
-  line-height: 1.2;
-  h3 {
-    font-size: 2.5rem;
-    margin: 1rem;
-    font-weight: 500;
-  }
-
-  section.card {
-    padding: 1.5rem;
-    margin: 1rem;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-  
-    h4 {
-      font-size: 1.8rem;
-      font-weight:400;
-    }
-    h6 {
-      font-size: 1.5rem;
-      font-weight:300;
-    }
-  ul {
-    text-decoration: none;
-    list-style-type: disc;
-    margin-left: 0.8rem ;
-  }
-
-  span {
-    &.secondary {
-      color: #f50057;
-    }
-  }
-}
-}
 
 article.home {
   padding-top: 5rem;
 
-  
+
 }
+
 header {
-margin: 0 auto;
+  margin: 0 auto;
 }
-
-
-
-img {
-  border-radius: 50% !important;
-  display: flex;
-  justify-content: center;
-  margin: 0.5em auto !important;
-}
-
-
-
-
-
-Footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: block;
-  margin: 0 auto !important;
-}
-
-
-main {
-
-  h1{
-    font-size: 5em;
-  }
-
-}
-
-ul {
-  list-style-type: disc;
-}
-
-Footer {
-  text-align: center;
-}
-
