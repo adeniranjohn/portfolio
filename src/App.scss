@@ -27,7 +27,7 @@ section.App {
 
     }
 
-
+  
     nav {
       display: flex;
       justify-content: space-evenly;
@@ -57,6 +57,7 @@ section.App {
 
     }
   }
+  
 
   main {
     padding: 1em;
@@ -125,6 +126,11 @@ section.App {
         h4 {
           font-size: 1.8rem;
           font-weight: 400;
+          article {
+            span {
+              line-height: 1.5;
+            }
+          }
         }
 
         h6 {
@@ -136,8 +142,13 @@ section.App {
           text-decoration: none;
           list-style-type: disc;
           margin-left: 0.8rem;
+          li {
+            line-height: 1.5;
+          }
         }
-
+        p {
+          line-height: 1.5;
+        }
         span {
           &.secondary {
             color: $color-secondary;
@@ -154,6 +165,7 @@ section.App {
     left: 0;
     right: 0;
     display: block;
+    padding: 1rem;
     margin: 0 auto !important;
     text-align: center;
   }

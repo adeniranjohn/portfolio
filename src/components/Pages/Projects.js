@@ -1,3 +1,5 @@
+import Card from '../Layout/Card';
+
 const Projects = () => {
     return (
         <section className="projects">
@@ -7,7 +9,7 @@ const Projects = () => {
 
 
 
-            <section className="card">
+            <Card>
 
                 <h4>WAEC Ikeja CT & CS</h4>
                 <h6>Software Developer</h6>
@@ -19,9 +21,9 @@ const Projects = () => {
                 </ul>
 
                 <span>   <span className='secondary'>Tech stack: </span>Amazon Web Services (RDS), Heroku, Firebase, PostgreSQL, Angular, NodeJS, Express and Git</span>
-            </section>
+            </Card>
 
-            <section className="card">
+            <Card>
 
                 <h4>TrendyThrift</h4>
                 <h6>Web Developer</h6>
@@ -35,8 +37,8 @@ const Projects = () => {
 
                 <span> <span className="secondary">Tech stack: </span>Firebase, Angular, NodeJS, Express and Git</span>
 
-            </section>
-            <section className="card">
+            </Card>
+            <Card>
                 <h4>Volunteering </h4>
                 <article>
                     <h6>ALC x Microsoft 4Afrika Skillslab (Mentor)  </h6>
@@ -62,7 +64,7 @@ const Projects = () => {
                     <span><span className="secondary">Knowledge base: </span> Javascript & React Framework</span>
 
                 </article>
-            </section>
+            </Card>
         </section>
     )
 }

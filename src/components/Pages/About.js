@@ -1,3 +1,5 @@
+import Card from '../Layout/Card';
+
 const About = () => {
 
   return (
@@ -6,7 +8,7 @@ const About = () => {
       <h3>
         About me
       </h3>
-      <section className="card">
+      <Card>
 
         <h4>
           Top skills
@@ -32,9 +34,9 @@ const About = () => {
         </p>
 
 
-      </section>
+      </Card>
 
-      <section className="card">
+      <Card>
         <h4>
           Reach Out
 
@@ -44,7 +46,7 @@ const About = () => {
           Socials
 
         </h6>
-        <p><a href="https://twitter.com/jasolajohn" alt="Twitter" target="_blank" rel="noreferrer" aria-label="Twitter">
+        <p><a href="https://twitter.com/adeniran_jo" alt="Twitter" target="_blank" rel="noreferrer" aria-label="Twitter">
           Twitter icon: @jasolajohn</a></p>
         <p><a href="https://www.linkedin.com/in/adeniranjohn" alt="LinkedIn" target="_blank" rel="noreferrer"
           aria-label="LinkedIn">Linked icon: adeniranjohn</a></p>
@@ -58,7 +60,7 @@ const About = () => {
         <p><a href="mailto:jasolajohn@gmail.com" alt="Email" target="_blank" rel="noreferrer" >Email: jasolajohn@gmail.com</a></p>
         <p><a href="tel: +2348031510308" alt="Phone" target="_blank" rel="noreferrer" >Phone icon: +2348131510308</a></p>
 
-      </section>
+      </Card>
 
 
     </section>
