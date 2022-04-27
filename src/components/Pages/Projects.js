@@ -6,18 +6,24 @@ const Projects = () => {
             <h3>
                 Projects
             </h3>
+            <Card>
+                <h4>John Adeniran's Portfolio</h4>
+                <h6>Role: Front End Developer</h6>
+                <span><span className="secondary">Tech stack:</span> React, JavaScript, SCSS</span>
 
+            </Card>
 
 
             <Card>
 
-                <h4>WAEC Ikeja CT & CS</h4>
-                <h6>Software Developer</h6>
+                <h4>WAEC Ikeja CT & CS </h4>
+                <h6>Role: Full stack Developer</h6>
                 <ul>
                     <li> Lead role in designing the product/features for customer needs.</li>
                     <li>Create Layout/User Interface by using standard HTML and CSS practices for best User Experience.</li>
                     <li>Integrate data from various backend services and databases.</li>
                     <li>Maintain project codebase on Github and database on AWS RDS.</li>
+
                 </ul>
 
                 <span>   <span className='secondary'>Tech stack: </span>Amazon Web Services (RDS), Heroku, Firebase, PostgreSQL, Angular, NodeJS, Express and Git</span>
@@ -26,7 +32,7 @@ const Projects = () => {
             <Card>
 
                 <h4>TrendyThrift</h4>
-                <h6>Web Developer</h6>
+                <h6>Role: Web Developer</h6>
 
                 <ul>
                     <li>Integration of back-end APIs to the user interface.</li>
