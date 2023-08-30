@@ -1,0 +1,56 @@
+section.Socials {
+    display: flex;
+    align-items: center;
+
+    ul {
+
+        list-style-type: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        &.row {
+            flex-direction: row;
+            
+        }
+
+        &.column {
+            flex-direction: column;
+
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+
+            &.inline {
+                flex-direction: row;
+   
+                justify-content: flex-start;
+                margin: 0.5em;
+            }
+
+            &.block {
+                flex-direction: column;
+                margin: 0.5em;
+                justify-content: center;
+            }
+      
+             span{
+                padding: 0.25em;
+                margin: 0;
+                &.text {
+                
+                }
+
+                &.hidden {
+                    display: none;
+                }
+
+
+             }
+        }
+    }
+
+}
