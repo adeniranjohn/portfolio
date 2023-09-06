@@ -3,7 +3,7 @@ import '../../styles/Navigator.scss';
 
 const Navigator = () => {
     return (
-        <nav class="navigator">
+        <nav className="navigator">
     
          <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}> Home </NavLink>
             <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}> Projects</NavLink>

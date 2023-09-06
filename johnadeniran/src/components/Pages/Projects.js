@@ -11,6 +11,9 @@ const Projects = () => {
             <Card>
                 <h4>John Adeniran's Portfolio</h4>
                 <h6>Role: Front End Developer</h6>
+                <ul>
+                    <li>Write well-structured, clean, and maintainable code using modern frontend technologies (HTML5, CSS3, JavaScript using Reactjs framework).</li>
+                </ul>
                 <span><span className="secondary">Tech stack:</span> React, JavaScript, SCSS</span>
 
             </Card>

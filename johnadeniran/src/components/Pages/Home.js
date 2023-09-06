@@ -6,13 +6,13 @@ const Home = () => {
       <h1>   
       <span class="hello">Hello.</span> 
       <span class="name">I'm John Adeniran</span></h1>
-      <h6>Software Developer</h6>
-    <p>I develop websites and web applications for businesses and organisations on cloud</p>
+      <h2>Software Developer</h2>
+    <blockquote>I develop websites and web applications for businesses and organisations on cloud</blockquote>
 
-        <article className="buttons">
-          <Link to="/" onClick={() => window.open("https://drive.google.com/file/d/1A90EdFR6waZvM91FDMFnVUT9ehc0Z2N4/view?usp=sharing", '_blank')} >Resume</Link>
+        <span className="buttons">
+          <Link to="/" onClick={() => window.open("", '_blank')} className='resume' >Resume</Link>
           <Link to="/projects">Projects</Link>
-          </article>
+          </span>
  
 
 

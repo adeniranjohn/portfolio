@@ -71,22 +71,43 @@ section.App {
         margin: 0.5rem 2rem;
       }
 
+
+
       p {
         margin: 0.5rem 2rem;
         max-width: 35rem;
+
         margin: 0 auto;
       }
+      blockquote {
+        font-style: italic;
+        line-height: 1.5rem;
+        font-size: 1.25em;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 
-      article.buttons {
+
+
+    }
+      span.buttons {
         padding: 1rem;
 
-        button {
+        a {
+          
           background-color: $color-primary;
+          text-decoration: none;
           border: none;
           color: white;
           padding: 0.5rem;
           margin: 1rem;
-          cursor: default;
+          cursor: pointer;
+
+          &.resume {
+
+            &:hover::before{
+              content:"Download ";
+            }
+          }
 
         }
       }
@@ -124,6 +145,7 @@ section.App {
 
         h6 {
           font-size: 1.5rem;
+          margin: 0.5em 0;
           font-weight: 300;
         }
 
@@ -133,6 +155,10 @@ section.App {
           margin-left: 0.8rem;
           li {
             line-height: 1.5;
+
+            svg {
+              padding-left: 0.5em;
+            }
           }
         }
         p {
@@ -144,6 +170,12 @@ section.App {
           }
         }
       }
+    }
+
+    a {
+        text-decoration:none;
+        color: black;
+        
     }
 
   }
@@ -182,6 +214,11 @@ article.home {
           display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+
+  section.card {
+    width: 40%;
+  }
 
   }
 }

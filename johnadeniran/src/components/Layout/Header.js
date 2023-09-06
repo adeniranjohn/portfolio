@@ -7,7 +7,7 @@ import Socials from './Socials'
 const Header = () => {
     return (
         <header>
-      <Link to="/"> <img className="header" src={logo} alt="John Adeniran Avatar" width="50"/> </Link>
+      <Link to="/"> <img className="header" src={logo} alt="John Adeniran Avatar" width="50px" height="50px" /> </Link>
       <h2>John Adeniran</h2>
        <Navigator/>
        <Socials
