@@ -7,6 +7,7 @@ import Header from './components/Layout/Header'
 import Home from './components/Pages/Home';
 
 import './App.scss';
+import Experience from './components/Pages/Experience';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/" element={<Home/>} /> 
           <Route exact path="/projects" element={<Projects/>} /> 
           <Route exact path="/about" element={<About/>} /> 
+          <Route exact path="/experience" element={<Experience/>} /> 
           </Routes>
           </main>
 

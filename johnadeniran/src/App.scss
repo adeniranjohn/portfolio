@@ -114,7 +114,9 @@ section.App {
     }
 
 
-    section.projects, section.about {
+    section.projects, 
+    section.about,
+    section.experience {
       line-height: 1.2;
 
       h3 {
@@ -127,54 +129,15 @@ section.App {
         margin-top: 1rem;
       }
 
-      section.card {
-        padding: 1.5rem;
-        margin: 1rem;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-        border-radius: 0.75em;
-
-        h4 {
-          font-size: 1.8rem;
-          font-weight: 400;
-          article {
-            span {
-              line-height: 1.5;
-            }
-          }
-        }
-
-        h6 {
-          font-size: 1.5rem;
-          margin: 0.5em 0;
-          font-weight: 300;
-        }
-
-        ul {
-          text-decoration: none;
-          list-style-type: disc;
-          margin-left: 0.8rem;
-          li {
-            line-height: 1.5;
-
-            svg {
-              padding-left: 0.5em;
-            }
-          }
-        }
-        p {
-          line-height: 1.5;
-        }
-        span {
-          &.secondary {
-            color: $color-secondary;
-          }
-        }
-      }
     }
 
     a {
         text-decoration:none;
         color: black;
+
+        span {
+          padding-right: 0.5em;
+        }
         
     }
 

@@ -7,14 +7,14 @@ const Projects = () => {
             <h3>
                 Projects
             </h3>
-            <section class="flow">
+            <section className="flow">
             <Card>
                 <h4>John Adeniran's Portfolio</h4>
                 <h6>Role: Front End Developer</h6>
                 <ul>
-                    <li>Write well-structured, clean, and maintainable code using modern frontend technologies (HTML5, CSS3, JavaScript using Reactjs framework).</li>
+                    <li>Well-structured, clean, and maintainable code using modern frontend technologies (HTML5, CSS3, JavaScript using Reactjs framework).</li>
                 </ul>
-                <span><span className="secondary">Tech stack:</span> React, JavaScript, SCSS</span>
+                <p><span className="secondary">Tech stack:</span> React, JavaScript, SCSS</p>
 
             </Card>
 
@@ -31,7 +31,7 @@ const Projects = () => {
 
                 </ul>
 
-                <span>   <span className='secondary'>Tech stack: </span>Amazon Web Services (RDS), Heroku, Firebase, PostgreSQL, Angular, NodeJS, Express and Git</span>
+                <p>   <span className='secondary'>Tech stack: </span>Amazon Web Services (RDS), Heroku, Firebase, PostgreSQL, Angular, NodeJS, Express and Git</p>
             </Card>
 
             <Card>
@@ -46,7 +46,7 @@ const Projects = () => {
                     <li>Work with other teams members to plan, design and develop solutions that meet the products need.</li>
                 </ul>
 
-                <span> <span className="secondary">Tech stack: </span>Firebase, Angular, NodeJS, Express and Git</span>
+                <p> <span className="secondary">Tech stack: </span>Firebase, Angular, NodeJS, Express and Git</p>
 
             </Card>
             <Card>
@@ -59,7 +59,7 @@ const Projects = () => {
                         <li>I volunteered as a Training mentor to upskill Fresh Graduates and Undergraduates through digital and auxiliary skills training program from the Microsoft Learn Program Cycle</li>
                     </ul>
 
-                    <span> <span className="secondary">Knowledge base: </span> Azure Cloud Computing</span>
+                    <p> <span className="secondary">Knowledge base: </span> Azure Cloud Computing</p>
                 </article>
 
                 <article>
@@ -72,9 +72,21 @@ const Projects = () => {
                         <li>Encouraging total participation and completion of the program.</li>
                     </ul>
 
-                    <span><span className="secondary">Knowledge base: </span> Javascript & React Framework</span>
+                    <p><span className="secondary">Knowledge base: </span> Javascript & React Framework</p>
 
                 </article>
+            </Card>
+
+            <Card>
+                <h4>Thrifta</h4>
+                <p>A Co-operative Thrift Society Software Application</p>
+                <p><span className="secondary">Tech Stack: </span>Javascript, Express, Angular, Sass, AWS RDS(PostgreSQL), MongoDB</p>
+            </Card>
+            <Card>
+            <h4>Ewe App</h4>
+            <p> A Social Media Application for knowledge of plants & herbs </p>
+            <p><span className="secondary">Tech Stack: </span> NestJS, Typescript, MongoDB</p>
+
             </Card>
             </section>
         </section>
