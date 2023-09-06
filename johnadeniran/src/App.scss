@@ -33,35 +33,7 @@ section.App {
     }
 
   
-    nav {
-      display: flex;
-      justify-content: space-around;
-      max-width: 20em;
-      align-items: center;
-      
-      margin: 0 auto !important;
 
-
-      a {
-        text-decoration: none;
-        padding: 0.5em;
-        font-size: small;
-        color: white;
-
-        &:hover {
-          border-bottom: 0.2em solid white;
-        }
-
-        &:active {
-          color: $color-secondary;
-        }
-
-      }
-
-
-
-
-    }
   }
   
 
@@ -70,8 +42,12 @@ section.App {
     
 
     section.Home {
-      padding-top: 3rem;
       text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      flex-direction: column;
+      height: 80vh;
 
       h1 {
         font-size: 5rem;
@@ -79,8 +55,13 @@ section.App {
         margin: 0.5rem 2rem;
 
         span {
-          color: $color-secondary;
 
+          &.hello {
+          color: $color-secondary;
+          }
+          &.name {
+            color: black;
+          }
         }
       }
 
@@ -191,6 +172,17 @@ article.home {
 
 }
 
-header {
-  margin: 0 auto;
+
+
+
+@media screen and (min-width: 768px) {
+  section {
+
+      &.flow {
+          display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  }
+}
 }

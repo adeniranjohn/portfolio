@@ -1,4 +1,5 @@
 import Card from '../Layout/Card';
+import '../../styles/Project.scss'
 
 const Projects = () => {
     return (
@@ -6,6 +7,7 @@ const Projects = () => {
             <h3>
                 Projects
             </h3>
+            <section class="flow">
             <Card>
                 <h4>John Adeniran's Portfolio</h4>
                 <h6>Role: Front End Developer</h6>
@@ -71,6 +73,7 @@ const Projects = () => {
 
                 </article>
             </Card>
+            </section>
         </section>
     )
 }

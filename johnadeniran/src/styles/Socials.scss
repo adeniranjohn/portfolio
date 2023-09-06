@@ -24,6 +24,11 @@ section.Socials {
             display: flex;
             align-items: center;
 
+            a {
+                text-decoration: none;
+                color:white;
+            }
+
             &.inline {
                 flex-direction: row;
    
@@ -40,6 +45,8 @@ section.Socials {
              span{
                 padding: 0.25em;
                 margin: 0;
+                display: flex;
+                align-items: center;
                 &.text {
                 
                 }

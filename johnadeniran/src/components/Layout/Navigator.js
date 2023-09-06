@@ -1,12 +1,13 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import '../../styles/Navigator.scss';
 
 const Navigator = () => {
     return (
-        <nav>
+        <nav class="navigator">
     
-         <Link to="/"> Home </Link>
-            <Link to="/projects"> Projects</Link>
-            <Link to="/about">About</Link>
+         <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}> Home </NavLink>
+            <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}> Projects</NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink>
   
     
         </nav>
