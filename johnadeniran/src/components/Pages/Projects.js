@@ -19,36 +19,7 @@ const Projects = () => {
             </Card>
 
 
-            <Card>
 
-                <h4>WAEC Ikeja CT & CS </h4>
-                <h6>Role: Full stack Developer</h6>
-                <ul>
-                    <li> Lead role in designing the product/features for customer needs.</li>
-                    <li>Create Layout/User Interface by using standard HTML and CSS practices for best User Experience.</li>
-                    <li>Integrate data from various backend services and databases.</li>
-                    <li>Maintain project codebase on Github and database on AWS RDS.</li>
-
-                </ul>
-
-                <p>   <span className='secondary'>Tech stack: </span>Amazon Web Services (RDS), Heroku, Firebase, PostgreSQL, Angular, NodeJS, Express and Git</p>
-            </Card>
-
-            <Card>
-
-                <h4>TrendyThrift</h4>
-                <h6>Role: Web Developer</h6>
-
-                <ul>
-                    <li>Integration of back-end APIs to the user interface.</li>
-                    <li>Gather and refine specifications and requirements based on technical needs.</li>
-                    <li>Development, review and deployment of features that satisfy member and consumer needs.</li>
-                    <li>Work with other teams members to plan, design and develop solutions that meet the products need.</li>
-                </ul>
-
-                <p> <span className="secondary">Tech stack: </span>Firebase, Angular, NodeJS, Express and Git</p>
-
-            </Card>
             <Card>
                 <h4>Volunteering </h4>
                 <article>
@@ -79,12 +50,13 @@ const Projects = () => {
 
             <Card>
                 <h4>Thrifta</h4>
-                <p>A Co-operative Thrift Society Software Application</p>
+                <p>A Co-operative Thrift Web App designed to empower members by providing convenient access to their financial transactions, facilitating loan requests, and enabling automatic savings deductions directly from their salaries. This innovative platform simplifies financial management and fosters cooperative financial practices among its members.</p>
                 <p><span className="secondary">Tech Stack: </span>Javascript, Express, Angular, Sass, AWS RDS(PostgreSQL), MongoDB</p>
+                <p>Subscription: <span>Ikeja Thrift CS, Yaba cooperative</span></p>
             </Card>
             <Card>
             <h4>Ewe App</h4>
-            <p> A Social Media Application for knowledge of plants & herbs </p>
+            <p>a social media application dedicated to the preservation of Yorùbá ecological data, knowledge, and collaborative information sharing. This platform serves as a digital hub for individuals passionate about safeguarding and sharing the rich ecological heritage and wisdom of the Yorùbá culture</p>
             <p><span className="secondary">Tech Stack: </span> NestJS, Typescript, MongoDB</p>
 
             </Card>
