@@ -1,5 +1,4 @@
-
-
+import '../../styles/Card.scss'
 
 const Card = (props) => {
     return (

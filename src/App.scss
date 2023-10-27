@@ -28,38 +28,12 @@ section.App {
 
     header {
       display: flex;
+      flex-direction: column;
 
     }
 
   
-    nav {
-      display: flex;
-      justify-content: space-evenly;
-      max-width: 20em;
-      align-items: center;
-      margin: 0 auto !important;
 
-
-      a {
-        text-decoration: none;
-        padding: 0.5em;
-        font-size: small;
-        color: white;
-
-        &:hover {
-          border-bottom: 0.2em solid white;
-        }
-
-        &:active {
-          color: $color-secondary;
-        }
-
-      }
-
-
-
-
-    }
   }
   
 
@@ -68,8 +42,12 @@ section.App {
     
 
     section.Home {
-      padding-top: 3rem;
       text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      flex-direction: column;
+      height: 80vh;
 
       h1 {
         font-size: 5rem;
@@ -77,8 +55,13 @@ section.App {
         margin: 0.5rem 2rem;
 
         span {
-          color: $color-secondary;
 
+          &.hello {
+          color: $color-secondary;
+          }
+          &.name {
+            color: black;
+          }
         }
       }
 
@@ -88,29 +71,52 @@ section.App {
         margin: 0.5rem 2rem;
       }
 
+
+
       p {
         margin: 0.5rem 2rem;
         max-width: 35rem;
+
         margin: 0 auto;
       }
+      blockquote {
+        font-style: italic;
+        line-height: 1.5rem;
+        font-size: 1.25em;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 
-      article.buttons {
+
+
+    }
+      span.buttons {
         padding: 1rem;
 
-        button {
+        a {
+          
           background-color: $color-primary;
+          text-decoration: none;
           border: none;
           color: white;
           padding: 0.5rem;
           margin: 1rem;
-          cursor: default;
+          cursor: pointer;
+
+          &.resume {
+
+            &:hover::before{
+              content:"Download ";
+            }
+          }
 
         }
       }
     }
 
 
-    section.projects, section.about {
+    section.projects, 
+    section.about,
+    section.experience {
       line-height: 1.2;
 
       h3 {
@@ -123,43 +129,16 @@ section.App {
         margin-top: 1rem;
       }
 
-      section.card {
-        padding: 1.5rem;
-        margin: 1rem;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    }
 
-        h4 {
-          font-size: 1.8rem;
-          font-weight: 400;
-          article {
-            span {
-              line-height: 1.5;
-            }
-          }
-        }
+    a {
+        text-decoration:none;
+        color: black;
 
-        h6 {
-          font-size: 1.5rem;
-          font-weight: 300;
-        }
-
-        ul {
-          text-decoration: none;
-          list-style-type: disc;
-          margin-left: 0.8rem;
-          li {
-            line-height: 1.5;
-          }
-        }
-        p {
-          line-height: 1.5;
-        }
         span {
-          &.secondary {
-            color: $color-secondary;
-          }
+          padding-right: 0.5em;
         }
-      }
+        
     }
 
   }
@@ -188,6 +167,22 @@ article.home {
 
 }
 
-header {
-  margin: 0 auto;
+
+
+
+@media screen and (min-width: 768px) {
+  section {
+
+      &.flow {
+          display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  section.card {
+    width: 40%;
+  }
+
+  }
+}
 }
