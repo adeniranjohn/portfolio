@@ -211,6 +211,15 @@ const About = () => {
 
           </ul>
         </Card> */}
+
+        <Card>
+          Why I am a good fit,
+          I have a very good flare for designing database for projects, after studying denormalization of database, I have 6 good years ind esigning database for projects and writing queries that is fast tuned for easy access to database
+
+          i am a good fit for your backend projects, experience in  designing api routes for the for good access and structed way of using api for frontend projects and
+
+          cloud projects 
+        </Card>
       </section>
     </section>
   );
